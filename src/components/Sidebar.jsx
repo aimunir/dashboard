@@ -24,11 +24,12 @@ const Sidebar = () => {
         {/* main page  */}
 
         {/* payments  */}
-        <div className="flex gap-[26px] my-7">
+        <div className="flex gap-[26px] my-7 items-center ">
           <ShoppingCartIcon className="w-5 h-5 text-gray-200" />
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
             Payments
           </h3>
+          <p className="text-[10px]  bg-red-300 px-2 py-1 rounded-[50%] ml-5">2</p>
         </div>
         {/* payments  */}
 
@@ -51,12 +52,12 @@ const Sidebar = () => {
         {/* services  end */}
 
         {/* chats  */}
-        <div className="flex gap-[26px] my-7">
+        {/* <div className="flex gap-[26px] my-7">
           <ShoppingCartIcon className="w-5 h-5 text-gray-200" />
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
             Chats
           </h3>
-        </div>
+        </div> */}
         {/* chats end */}
 
         {/* chats */}
@@ -65,6 +66,7 @@ const Sidebar = () => {
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
             Chats
           </h3>
+          <p className="text-[10px]  bg-green-400 px-2 py-1 rounded-[50%] ml-8 ">24</p>
         </div>
         {/* chats end */}
 
@@ -72,7 +74,7 @@ const Sidebar = () => {
         <div className="flex gap-[26px] my-7">
           <AdjustmentsIcon className="w-5 h-5 text-gray-200 rotate-90" />
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
-            Chats
+            Settings
           </h3>
         </div>
         {/* settings end */}
@@ -82,7 +84,7 @@ const Sidebar = () => {
         <div className="flex gap-[26px] my-7">
           <MailIcon className="w-5 h-5 text-gray-200" />
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
-            Chats
+            Inbox
           </h3>
         </div>
 
@@ -92,7 +94,7 @@ const Sidebar = () => {
         <div className="flex gap-[26px] my-7">
           <BellIcon className="w-5 h-5 text-gray-200" />
           <h3 className=" text-gray-500 font-bold text-[12px] leading-5">
-            Chats
+            Notification
           </h3>
         </div>
         {/* Notification end */}
