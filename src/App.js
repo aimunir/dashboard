@@ -5,8 +5,11 @@ import Sidebar from "./components/Sidebar";
 const App = () => {
   return (
     <>
-      <Navbar/>
+    <div className=' w-full h-full  bg-gray-20'>
+    <Navbar/>
       <Sidebar/>
+    </div>
+      
     </>
   );
 };

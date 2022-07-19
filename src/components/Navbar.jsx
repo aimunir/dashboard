@@ -6,7 +6,7 @@ import Base from "../assests/Base.png";
 
 const NavBar = () => {
   return (
-    <div className="w-full  bg-gray-20 ">
+    <div className="w-full  fixed">
       <div className=" w-full h-16 pl-12 pr-11  flex items-center justify-between">
         <div className="uppercase text-2xl font-bold text-gray-600 cursor-pointer ">
           dashboard
@@ -39,7 +39,7 @@ const NavBar = () => {
 
         {/* avatar section  */}
         <div className="flex gap-5 cursor-pointer">
-          <img className="w-[37px] h-[37px] " src={Base} alt="/" />
+          <img className="w-[37px] h-[37px] ring-2 ring-gray-300 rounded-full " src={Base} alt="/" />
           <div>
             <h4 className="text-[12px] font-bold text-slate-900">Jackson D.</h4>
             <h5 className="font-semibold text-gray-400 text-[10px]">Manager</h5>

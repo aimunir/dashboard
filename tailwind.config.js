@@ -24,6 +24,8 @@ module.exports = {
       colors: {
         // Configure your color palette here
         'gray-20': '#F7F8FA',
+        'gray-40': '#F0F2F5',
+
       },
       fontFamily: {
         //enter font

@@ -14,11 +14,15 @@ import {
   MailIcon,
   BellIcon,
   CameraIcon,
+  SunIcon,
+  MoonIcon
 } from "@heroicons/react/solid";
+
 import { CloudUploadIcon } from "@heroicons/react/outline";
+
 const Sidebar = () => {
   return (
-    <div className="w-[20%] h-screen pt-16 ml-8">
+    <div className="w-[20%]   ml-8 pt-[144px]  mb-[77px]">
       {/* menu bar  */}
       <div className="cursor-pointer">
         {/* main page  */}
@@ -197,9 +201,22 @@ const Sidebar = () => {
       {/* drag-n-drop end */}
 
 {/* dark-n-light mode  */}
-<div className="">
+<div className=" drop-shadow-2xl w-[250px] h-[54px] bg-gray-100 rounded-full mt-[56px] text-center flex items-center gap-6 ">
 
+ {/* light mode  */}
+ <div className='flex gap-[23px] items-center drop-shadow-2xl bg-white font-bold rounded-full ml-[10px] my-[8px] py-[7px]'>  
+<SunIcon className=" w-6 h-6 text-gray-300 pl-[10px] "/>  
+<p className='font-bold text-[10px] leading-4  pr-[43px] text-gray-300  '> Light</p> 
 </div>
+ {/* light mode  end */}
+
+ {/* dark mode  */}
+ <div className="flex items-center gap-[17px]" >
+  <MoonIcon className="w-5 h-5 text-gray-400"/>
+  <p className='font-bold text-[10px] leading-4 text-gray-300'> Dark</p>
+  </div>
+</div>
+ {/* dark mode end */}
 {/* dark-n-light mode end */}
 
     </div>
