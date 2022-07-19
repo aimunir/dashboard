@@ -6,7 +6,7 @@ import Base from "../assests/Base.png";
 
 const NavBar = () => {
   return (
-    <div className="w-full  fixed">
+    <div className="w-full ">
       <div className=" w-full h-16 pl-12 pr-11  flex items-center justify-between">
         <div className="uppercase text-2xl font-bold text-gray-600 cursor-pointer ">
           dashboard

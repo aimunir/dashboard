@@ -22,7 +22,7 @@ import { CloudUploadIcon } from "@heroicons/react/outline";
 
 const Sidebar = () => {
   return (
-    <div className="w-[20%]   ml-8 pt-[144px]  mb-[77px]">
+    <div className="w-[20%]   ml-8 pt-[144px] ">
       {/* menu bar  */}
       <div className="cursor-pointer">
         {/* main page  */}
