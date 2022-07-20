@@ -3,13 +3,13 @@ import {
   DotsCircleHorizontalIcon,
   DotsHorizontalIcon,
 } from "@heroicons/react/solid";
-// import FigmaImg from "../assests/Figma.png";
-// import SafariImg from "../assests/Logo.png";
-// import Chrome from "../assests/chrome.png";
-// import Adobe from "../assests/adobe-illustrator.png";
-// import Edge from "../assests/microsoft-edge.png";
-// import Office from "../assests/office.png";
-// import Line from "../assests/line.png";
+import Chrome from "../assests/chrome 1.svg";
+import FigmaImg from "../assests/Figma-logo 1.svg";
+import Adobe from '../assests/adobe-illustrator-cs6 1.svg'
+import Edge from '../assests/microsoft-edge-1 1.svg'
+import Office from '../assests/office-2 1.svg'
+import Line from '../assests/line-messenger 1.svg'
+
 
 const Applications = () => {
   return (
@@ -23,11 +23,13 @@ const Applications = () => {
 
       {/* Name  */}
 
-      <div className="pt-8 ">
+      <div className="pt-8 mx-6  flex flex-col">
         {/* figma  */}
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between ">
-          <div className="flex items-center gap-5">
-            <img className="w-[10px] h-[15px] ml-4  " src={FigmaImg} alt="/" />
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between ">
+          <div className="flex items-center gap-5 py-2">
+            <div  className="w-7 h-7  ml-2 drop-shadow-2xl bg-white rounded-md  flex items-center justify-center ">
+              <img src={FigmaImg} alt="" />
+            </div>
             <h4 className="font-bold text-[11px] text-gray-500">Figma</h4>
           </div>
           <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
@@ -35,18 +37,22 @@ const Applications = () => {
         {/* figma  */}
 
         {/* safari  */}
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[22px] h-[22px] ml-4" src={SafariImg} alt="/" />
-            <h4 className="font-bold text-[11px] text-gray-500"> Safari Browser</h4>
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white  rounded-md  flex items-center justify-center ">
+              <img src={Chrome} alt="/" />
+            </div>
+            <h4 className="font-bold text-[11px] text-gray-500">Safari</h4>
           </div>
-          <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
+          <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
         </div>
         {/* safari end */}
         {/* chrome  */}
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between pr-5 mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[18px] h-[18px] ml-4" src={Chrome} alt="/" />
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white rounded-md  flex items-center justify-center ">
+              <img src={Chrome} alt="/" />
+            </div>
             <h4 className="font-bold text-[11px] text-gray-500">Chrome</h4>
           </div>
           <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
@@ -55,45 +61,52 @@ const Applications = () => {
 
         {/* Adobe  */}
 
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[18px] h-[18px] ml-4" src={Adobe} alt="/" />
-            <h4 className="font-bold text-[11px] text-gray-500">Adobe illustrator </h4>
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white rounded-md  flex items-center justify-center ">
+              <img src={Adobe} alt="/" />
+            </div>
+            <h4 className="font-bold text-[11px] text-gray-500">Adobe illustrator</h4>
           </div>
-          <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
+          <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
         </div>
 
         {/* Adobe end */}
 
         {/* microsoft  */}
-
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[18px] h-[18px] ml-4" src={Edge} alt="/" />
-            <h4 className="font-bold text-[11px] text-gray-500"> Microsoft Edge</h4>
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white  rounded-md  flex items-center justify-center ">
+              <img src={Edge} alt="/" />
+            </div>
+            <h4 className="font-bold text-[11px] text-gray-500">Microsoft Edge</h4>
           </div>
-          <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
+          <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
         </div>
-
+       
         {/* microsoft end */}
 
         {/* office  */}
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[16px] h-[16px] ml-4" src={Office} alt="/" />
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white  rounded-md  flex items-center justify-center ">
+              <img src={Office} alt="/" />
+            </div>
             <h4 className="font-bold text-[11px] text-gray-500">Office</h4>
           </div>
-          <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
+          <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
         </div>
         {/* office end */}
 
         {/* line messenger  */}
-        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4 py-3 rounded-sm justify-between mt-2 ">
-          <div className="flex items-center gap-5">
-            <img className="w-[18px] h-[18px] ml-4" src={Line} alt="/" />
+        <div className="flex  items-center drop-shadow-2xl bg-gray-100 mx-4  rounded-sm justify-between pr-5 mt-2 ">
+          <div className="flex items-center gap-5 py-2">
+            <div className="w-7 h-7  ml-2 drop-shadow-2xl bg-white rounded-md  flex items-center justify-center ">
+              <img src={Line} alt="/" />
+            </div>
             <h4 className="font-bold text-[11px] text-gray-500">Line Messenger</h4>
           </div>
-          <p className="font-bold text-[11px] text-gray-400 pr-5">4h 43min</p>
+          <p className="font-bold text-[11px] text-gray-400 ">4h 43min</p>
         </div>
         {/* line messenger end */}
       </div>

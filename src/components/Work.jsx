@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
+import { DotsHorizontalIcon } from "@heroicons/react/solid";
 
 const Work = () => {
   return (
-    <div className='w-[264px] h-[264px]  bg-blue-500 rounded-xl' > work</div>
-  )
-}
+    <div className="w-[264px] h-[264px]  bg-primary-600 rounded-xl">
+      <div>
+        <div className="flex items-center justify-between">
+          <div>
+            <h4 className="font-bold text-sm text-primary-400 ml-6 mt-6 ">Time At Work</h4>
+          </div>
+          <div className="drop-shadow-2xl bg-primary-500 mr-6 mt-5  px-1 rounded-xl ">
+            <DotsHorizontalIcon className="w-5 text-gray-200 " />
+          </div>
+        </div>
 
-export default Work
+        <div>
+          <p className="text-4xl font-bold">chart</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Work;

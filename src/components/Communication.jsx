@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Communication = () => {
   return (
-    <div className=' w-[264px] h-[168px] bg-sky-300 drop-shadow-2xl rounded-xl '>Communication</div>
-  )
-}
+    <div className=" w-[264px] h-[168px] bg-sky-300 drop-shadow-2xl rounded-xl ">
+     <div className="flex gap-5">
+     <div className="flex flex-col gap-6 my-6 ml-6">
+        <h4 className="font-bold text-sm text-sky-700">Communication</h4>
+        <p className="font-bold text-sky-700 text-sm  " >5%</p>
+        <p className="font-bold text-sky-700 text-[20px] leading-[28px] " >1 h 21 min</p>
+      </div>
 
-export default Communication
+
+      <div> chart</div>
+     </div>
+    </div>
+  );
+};
+
+export default Communication;

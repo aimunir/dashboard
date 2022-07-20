@@ -12,7 +12,7 @@ import Work from "./Work";
 
 const RightSection = () => {
   return (
-    <div className=" w-full mr-4 bg-red-400 mt-[110px] grid grid-rows-2 gap-6 ">
+    <div className=" w-full mr-4 bg-red-400 mt-[110px] grid grid-rows-2 gap-6">
       {/* upper    */}
       <div className="flex">
         <Usage />
@@ -20,7 +20,7 @@ const RightSection = () => {
           <Work />
           <Creativity />
         </div>
-        <div>
+        <div className='ml-6'>
           <Communication />
           <Productivity />
           <Others />

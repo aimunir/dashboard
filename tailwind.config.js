@@ -25,6 +25,9 @@ module.exports = {
         // Configure your color palette here
         'gray-20': '#F7F8FA',
         'gray-40': '#F0F2F5',
+        'primary-600': '#2563EB',
+        'primary-500': '#3B82F6',
+        'primary-400': '#60A5FA',
 
       },
       fontFamily: {
