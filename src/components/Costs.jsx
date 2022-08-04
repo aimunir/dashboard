@@ -51,6 +51,7 @@ const Costs = () => {
       verticalAlign: "middle",
       itemMarginTop: 10,
       itemMarginBottom: 10,
+      padding: 0,
     },
     plotOptions: {
       series: {
@@ -65,7 +66,12 @@ const Costs = () => {
       },
     },
 
-    tooltip: {},
+    tooltip: {
+      backgroundColor: "white",
+      borderColor: "rgba(168, 85, 247, 0)",
+      borderRadius: 20,
+      borderWidth: 3
+    },
 
     series: [
       {
