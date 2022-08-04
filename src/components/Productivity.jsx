@@ -59,7 +59,7 @@ const Productivity = () => {
 
     series: [
       {
-        colorByPoint: true,
+        color: "#A855F7",
         data: [
           {
             y: 40,

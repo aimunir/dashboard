@@ -58,7 +58,7 @@ const Others = () => {
 
     series: [
       {
-        colorByPoint: true,
+        color:"#22C55E",
         data: [
           {
             y: 40,

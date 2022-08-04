@@ -7,6 +7,8 @@ const WebStatistic = () => {
     chart: {
       type: "area",
       backgroundColor: null,
+      marginLeft: 0,
+      marginRight: 0,
       height: "100",
     },
     title: {
@@ -45,6 +47,10 @@ const WebStatistic = () => {
 
     },
     plotOptions: {
+
+      series: {
+        lineColor: '#81C784'
+    },
       area: {
         pointStart: 1940,
         marker: {
@@ -71,6 +77,7 @@ const WebStatistic = () => {
           10104, 9914, 9620, 9326, 5113, 5113, 4954, 4804, 4761, 4717, 4368,
           4018,
         ],
+        lineWidth: 1,
         fillColor: {
           linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
           stops: [

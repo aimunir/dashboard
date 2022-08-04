@@ -70,8 +70,7 @@ const Costs = () => {
     series: [
       {
         name: "Actual",
-        colorByPoint: true,
-        color: "red",
+        color: "#22C55E",
         data: [
           {
             name: "Actual",
@@ -81,8 +80,8 @@ const Costs = () => {
       },
       {
         name: "Planning",
-
-        colorByPoint: true,
+        color: "#A855F7",
+      
         data: [
           {
             name: "Planning",
@@ -92,16 +91,15 @@ const Costs = () => {
       },
       {
         name: "Buget",
-
-        colorByPoint: true,
+        color: "#33BFFF",
         data: [
           {
             name: "Buget",
             y: 2.0,
-            drilldown: "Chrome",
+            
           },
         ],
-        color: "black",
+       
       },
     ],
   };

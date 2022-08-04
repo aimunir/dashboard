@@ -8,7 +8,10 @@ const Creativity = () => {
     chart: {
       type: "area",
       backgroundColor: null,
+      marginLeft: 0,
+      marginRight: 0,
       height: "200",
+     
     },
     title: {
       text: "",
@@ -49,6 +52,10 @@ const Creativity = () => {
     },
 
     plotOptions: {
+      series: {
+        lineColor: '#b8bfc2'
+      
+    },
       area: {
         pointStart: 1940,
         marker: {
@@ -76,6 +83,7 @@ const Creativity = () => {
           4368, 4018,
         ],
         color: "rgba(168, 85, 247, 0)",
+        lineWidth: 1
         // fillColor: {
         //   linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
         //   stops: [

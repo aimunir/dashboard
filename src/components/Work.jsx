@@ -46,7 +46,7 @@ const Work = () => {
     },
     plotOptions: {
       series: {
-        color: "",
+        
         borderRadius: 5,
       },
     },
@@ -59,8 +59,8 @@ const Work = () => {
     },
 
     series: [
-      {
-        colorByPoint: true,
+      { 
+        color:"#60A5FA",
         data: [
           {
             y: 40,
