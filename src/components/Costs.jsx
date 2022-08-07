@@ -8,7 +8,7 @@ const Costs = () => {
       type: "column",
       backgroundColor: null,
       height: "200",
-      width:"250"
+      width: "330",
     },
     title: {
       text: "",
@@ -34,6 +34,7 @@ const Costs = () => {
       tickLength: 0,
     },
     yAxis: {
+     
       labels: {
         format: "${text}k", // The $ is literally a dollar unit
       },
@@ -55,11 +56,10 @@ const Costs = () => {
     },
     plotOptions: {
       series: {
-
         column: {
           pointPadding: 0,
-          borderWidth: 20
-      },
+          borderWidth: 20,
+        },
         borderWidth: 0,
         pointWidth: 10,
         borderRadius: 5,
@@ -70,7 +70,7 @@ const Costs = () => {
       backgroundColor: "white",
       borderColor: "rgba(168, 85, 247, 0)",
       borderRadius: 20,
-      borderWidth: 3
+      borderWidth: 3,
     },
 
     series: [
@@ -80,18 +80,18 @@ const Costs = () => {
         data: [
           {
             name: "Actual",
-            y: 4.5,
+            y: 5,
           },
         ],
       },
       {
         name: "Planning",
         color: "#A855F7",
-      
+
         data: [
           {
             name: "Planning",
-            y: 4.0,
+            y: 3.0,
           },
         ],
       },
@@ -101,11 +101,9 @@ const Costs = () => {
         data: [
           {
             name: "Buget",
-            y: 2.0,
-            
+            y: 1.0,
           },
         ],
-       
       },
     ],
   };

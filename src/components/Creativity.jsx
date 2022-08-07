@@ -10,7 +10,7 @@ const Creativity = () => {
       backgroundColor: null,
       marginLeft: 0,
       marginRight: 0,
-      height: "200",
+      height: "233",
      
     },
     title: {
@@ -84,13 +84,6 @@ const Creativity = () => {
         ],
         color: "rgba(168, 85, 247, 0)",
         lineWidth: 1
-        // fillColor: {
-        //   linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
-        //   stops: [
-        //     [0, "rgba(168, 85, 247, 0)"],
-        //     [1, "rgba(168, 85, 247, 0)"],
-        //   ],
-        // },
       },
     ],
   };
