@@ -4,89 +4,79 @@ import { ChevronRightIcon } from "@heroicons/react/solid";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 const Usage = () => {
-
   const options = {
     chart: {
-        type: 'column',
-        backgroundColor: null,
-        height:"150"        
+      type: "column",
+      backgroundColor: null,
+      height: "130",
     },
-    exporting:false,
+    exporting: false,
     title: {
-        text: ""
+      text: "",
     },
-    legend:{ enabled:false },
-  credits: {
+    legend: { enabled: false },
+    credits: {
       enabled: false,
     },
-    
+
     xAxis: {
-        plotLines: [{ // mark the weekend
-            color: 'red',
-            width: 2,
-         
-            dashStyle: 'longdashdot'
-        }],
-    categories: ['M', 'T', 'W','T', 'F', 'S','S']
-        
+      gridLineWidth: 1,
+      plotLines: [
+        {
+          width: 2,
+        },
+      ],
+      categories: ["M", "T", "W", "T", "F", "S", "S"],
     },
     yAxis: {
-  
-   opposite: true,
-        labels: {
+      gridLineWidth: 1,
+      opposite: true,
+      labels: {
         format: "{text}h", // The $ is literally a dollar unit
       },
-        title:{
-        text:""
-        }
-       
+      title: {
+        text: "",
+      },
     },
-    tooltip: {
-        
-    },
+    tooltip: {},
     plotOptions: {
-        column: {
-            stacking: 'percent'
-        },
-           series: {
-            pointWidth: 15,    
-
-        }
-        
+      column: {
+        stacking: "percent",
+      },
+      series: {
+        pointWidth: 15,
+      },
     },
     series: [
-    
-    { 
-        data: [0,1,1,1,1,1,1],
-         color:"#F2F4F7" ,
-         showInLegend: false,
-        linkedTo: 'series1'
-    },
-      
-    {
-        name: 'Productivity',
-        data: [0,1,1,0,3,2,1],
-        color:"#1D4ED8"
-    }, {
-        name: 'Communication',
-        data: [2, 1, 3, 2, 1,1,6],
-         color:"#33BFFF"
-    }, {
-        name: 'Creativity',
-        data: [3, 2, 4, 2, 5,1,6],
-         color:"#EC4899"
-    },
-    {
-        name: 'Others',
-        data: [3, 4, 4, 2, 5,1,6],
-         color:"#22C55E"
-    },
-    
-     
-      
-   
-    ]
-}
+      {
+        data: [0, 1, 1, 1, 1, 1, 1],
+        color: "#F2F4F7",
+        showInLegend: false,
+        linkedTo: "series1",
+      },
+
+      {
+        name: "Productivity",
+        data: [0, 1, 1, 0, 3, 2, 1],
+        color: "#1D4ED8",
+      },
+      {
+        name: "Communication",
+        data: [2, 1, 3, 2, 1, 1, 6],
+        color: "#33BFFF",
+      },
+      {
+        name: "Creativity",
+        data: [3, 2, 4, 2, 5, 1, 6],
+        color: "#EC4899",
+      },
+      {
+        name: "Others",
+        data: [3, 4, 4, 2, 5, 1, 6],
+        color: "#22C55E",
+      },
+    ],
+  };
   return (
     <div className="drop-shadow-2xl bg-gray-100 w-[48%] h-[48%]] rounded-xl ml-8 mr-6">
       <div>
@@ -119,7 +109,7 @@ const Usage = () => {
       </div>
 
       <div className="mt-6">
-      <HighchartsReact highcharts={Highcharts} options={options} />
+        <HighchartsReact highcharts={Highcharts} options={options} />
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const WebStatistic = () => {
 
     xAxis: {
       lineWidth: 0,
-
+      crosshair: false,
       labels: {
         enabled: false,
       },
@@ -30,11 +30,6 @@ const WebStatistic = () => {
     },
     yAxis: {
       visible: false,
-      crosshair: {
-        label: {
-          enabled: false,
-        },
-      },
       minorGridLineWidth: 0,
       gridLineWidth: 0,
       alternateGridColor: null,
